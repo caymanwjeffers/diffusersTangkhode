@@ -225,7 +225,7 @@ install_requires = [
 ]
 
 setup(
-    name="diffusers-tangkhode",
+    name="diffusersTangkhode",
     version="0.0.1",  # expected format is one of x.y.z.dev0, or x.y.z.rc1 or x.y.z (no to dashes, yes to dots)
     description="Diffusers",
     long_description=open("README.md", "r", encoding="utf-8").read(),
@@ -234,14 +234,14 @@ setup(
     license="Apache",
     author="tangkhode",
     author_email="caymanwjeffers@gmail.com",
-    url="https://github.com/caymanwjeffers/diffusers-tangkhode",
+    url="https://github.com/caymanwjeffers/diffusersTangkhode",
     package_dir={"": "src"},
     packages=find_packages("src"),
     include_package_data=True,
     python_requires=">=3.7.0",
     install_requires=install_requires,
     extras_require=extras,
-    download_url="https://github.com/caymanwjeffers/diffusers-tangkhode/archive/refs/tags/v_01.tar.gz",
+    download_url="https://github.com/caymanwjeffers/diffusersTangkhode/archive/refs/tags/v_01.tar.gz",
     entry_points={"console_scripts": ["diffusers-cli=diffusers.commands.diffusers_cli:main"]},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
